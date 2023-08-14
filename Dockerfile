@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bookworm
 
 COPY ./entrypoint.sh /entrypoint.sh
 COPY ./install-deps.sh /install-deps.sh
